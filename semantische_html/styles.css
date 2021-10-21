@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    grid-template-columns:3fr 1fr;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 48px;
+    width: 100%;
+    background: linear-gradient(90deg, fuchsia 0%, indigo 100%);
+}
+
+nav a {
+    height: 100%;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
