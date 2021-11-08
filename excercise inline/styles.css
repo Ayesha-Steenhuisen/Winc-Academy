@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+body {
+    color:black;
+    background: linear-gradient(90deg, rgb(38, 31, 139) 0%, rgb(17, 240, 240) 100%);
+    font-family:"Zen Antique Soft","papyrus",sans-serif;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns:3fr 1fr;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-border-black {
+    border:black 3px solid;
+}
+
+#green-background {
+    background-color: rgba(69, 102, 69, 0.801);
+}
+nav {
+    height: 48px;
+    width: 100%;
+    /* background: linear-gradient(90deg, fuchsia 0%, indigo 100%); */
+    /* background: linear-gradient(90deg, fuchsia 0%, indigo 100%); */
+    background: linear-gradient(
+        90deg, rgb(89 139 31) 0%, rgb(17, 240, 240) 100%);
+}
+/*  - linear gradient hoek is standaard van beneden naar boven (0deg gaat van beneden naar boven)
+    - Als je die hoek 90deg draait
+*/
+
+nav ul {
+    display: inline;
+    /* justify-content:space-evenly; */
+
+}
+
+nav ul li {
+  display:inline;
+  /* margin: 0 35px;   */
+}
+a:visited {
+    color:fuchsia;
+}
+a:active{
+    color: orangered;
+    /* click tab, navigating with keyboard */
+}
+a:hover{
+    color:yellow;
+}
+a:
+
+nav a {
+    height: 100%;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size:20pt;
+}
