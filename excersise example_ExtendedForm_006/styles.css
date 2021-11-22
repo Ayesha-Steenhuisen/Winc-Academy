@@ -1,0 +1,41 @@
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    background-color: mediumblue;
+    color: yellow;
+    font-size: 150%;
+    line-height: 1.2;
+  }
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  height: 48px;
+  width: 100%;
+
+  /* background: linear-gradient(90deg, fuchsia 0%, indigo 100%); */
+  background: linear-gradient(90deg, fuchsia 0%, indigo 100%);
+}
+
+/*  - linear gradient hoek is standaard van beneden naar boven (0deg gaat van beneden naar boven)
+    - Als je die hoek 90deg draait
+*/
+
+nav a {
+  height: 100%;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+}
