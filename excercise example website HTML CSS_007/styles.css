@@ -1,0 +1,109 @@
+body,
+html {
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 27% 27% 27%;
+  grid-template-rows: 8%, 30% auto, 10%;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar section1 section2 section3"
+    "sidebar section1 section2 section3"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar footer footer footer";
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: #0c3157d2;
+}
+
+header {
+  grid-area: header;
+  background: fuchsia;
+}
+
+section:nth-of-type(1) {
+  grid-area: section1;
+  background-color: rgb(212 133 29 / 65.8%);
+}
+
+section:nth-of-type(2) {
+  grid-area: section2;
+  background-color: rgb(29 154 192 / 35.6%);
+}
+
+section:nth-of-type(3) {
+  grid-area: section3;
+  background-color: rgb(86 17 226 / 50.7%);
+}
+
+main {
+  grid-area: main;
+  background-color: rgb(190 190 22 / 73.3%);
+}
+
+footer {
+  grid-area: footer;
+  background-color: rgb(30 228 106 / 47.9%);
+}
+
+/* media query screens and desktops */
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 27% 27% 27%;
+    grid-template-rows: 8%, 30% auto, 10%;
+    grid-template-areas:
+      "sidebar header header header"
+      "sidebar section1 section2 section3"
+      "sidebar section1 section2 section3"
+      "sidebar main main main"
+      "sidebar main main main"
+      "sidebar main main main"
+      "sidebar main main main"
+      "sidebar footer footer footer";
+  }
+}
+
+/* large phones */
+@media only screen and (min-width: 600px) {
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 50%, 50%;
+    grid-template-rows: repeat (auto, 6);
+    grid-template-areas:
+      "sidebar header"
+      "sidebar section1"
+      "sidebar section2"
+      "sidebar section3"
+      "sidebar main"
+      "sidebar footer";
+  }
+}
+
+/* smaller phones */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat (auto, 6);
+    grid-template-areas:
+      "header"
+      "section1"
+      "section2"
+      "section3"
+      "main"
+      "footer";
+  }
+}
