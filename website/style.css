@@ -1,0 +1,64 @@
+.carousel-item .img-fluid {
+  width: 1200px;
+  height: 480px;
+
+  .hr {
+    color: transparent;
+  }
+}
+
+.hr {
+
+}
+
+/*
+
+.navbar {
+  margin-bottom: 0%;
+
+}
+/*Navbar color */
+
+/* Background navbar has the colors of the Brooklyn Flag */
+
+/* .bg-dark {
+    background: linear-gradient(midnightblue, white, red);
+    /* Colors linear-gradient(#1e5799 0%,#140b47 25%,#081633
+    35%,#9623ba 49%,#140b47 64%,#1e5799 80%,#373a66 90%); */
+
+/* }
+
+#BrooklynFLagLogo {
+    height: 30%;
+    width: 25%;
+    float:right;
+    margin-right: 10%;
+} */
+
+/* navbar menu */
+
+/* .navbar-dark .navbar-brand {
+    color: #00f3f5;
+    font-size: 45;
+    margin-top: center;
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #00f3f5;
+    font-size: 25px;
+}
+    /*Carousel-First Image Avengers */
+
+/*
+.carousel-item .img-fluid {
+    width:100%;
+    height:100%;
+    }
+
+
+
+
+    }
+*/

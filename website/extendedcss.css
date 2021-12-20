@@ -1,0 +1,377 @@
+.bg-newcolor {
+  background: linear-gradient( #6e82a3, #84b7ad);
+}
+
+body {
+  background-color: black;
+}
+
+#preregisterheader{
+  color:white;
+}
+
+
+/*.bg-section1 {
+  border-radius : 0.4px;
+  background-color:#009999;
+}*/
+
+/*.bg-firstsection{
+  background-color:#009999;
+}
+
+#carouselExampleIndicators img {
+  max-width : 100%;
+  height:900px;
+}*/
+
+#jumbotronheader {
+  background-color: none;
+}
+
+/*______________________make first two sections a linear gradient of the two green colors_____________________*/
+
+/*.bg-firstsection, #homepagejumbotronsection2{
+  background : linear-gradient(#009999, #008a8a);
+}*/
+
+/*________________Jumbotronsection1___________________*/
+
+#jumbotron1, #jumbotronsecondsection1 {
+  background-color: grey;
+}
+
+.thirdsectionpacino {
+  background-color: blue;
+}
+
+.bg-dark py-4 {
+  background-color: #008080;
+  /*  background-color:transparent;*/
+}
+
+.jumbotronsecondpart, #jumbtronbff {
+  background: linear-gradient(to top right, #ccffff 1%, #000000 99%);
+}
+
+.img-fluid jumbotron {
+  400px;
+  border-radius: 0.4rem;
+}
+
+.thirdsection, .alpacino, #alpacino3 {
+  background-color: #5e8d7c;
+}
+
+.fourthsection, .carddeck5thaugust, #carddeck5thaugust, .jumbotron, #Jumbotron-Homepage {
+  background-color: #5d817f;
+}
+
+.fifthsection, .samuelljackson, #samueljackson5th {
+  background-color: #465f5b;
+}
+
+.sixthsection, .carddeck6thaugust, #carddeck6thaugust, #Moviespreregister2ndjumbotron {
+  background-color: #334d4d;
+  color: white;!
+}
+
+.garyoldman, #garyoldman7th, #Moviespreregister3ndjumbotron {
+  background-color: #1f2e2e;
+  color: white;
+}
+
+.carddeck8thaugust, .seventhsection, #carddeck8thaugust, #Moviespreregister4ndjumbotron {
+  background-color: #141f1f;
+  color: white;
+}
+
+.davidcarradine, #davidcarradine8 {
+  background-color: #0a0f0f;
+  color: white;
+}
+/*__________MoviesPre-RegisterPage_____________________*/
+.jumbotron, #Jumbotron-Homepage{
+  background-color: #a3c2c2;
+}
+
+/*Revision*/
+
+.august6th, #august6th{
+  color:white;
+  text-decoration:none;
+}
+
+.august6th, #august6th:hover {
+color: #70dbdb;
+}
+/* #headerfooter {
+  color: black;
+  text-decoration: none;
+}
+
+#headerfooter:hover {
+  color: #70dbdb;
+} */
+
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.formone{
+  position:absolute;
+  top: 40px;
+  left:80px;
+}
+avengersform{
+  top:  40px;
+  right: 30px;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*_______________Navbar-Brand________________*/
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.75rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+
+/*_______________Navbar________________*/
+
+.navbar {
+  padding: 2rem 2rem;
+}
+
+.navbar-dark .navbar-brand {
+  color: black;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: #70dbdb;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 430;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: #70dbdb;
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: #333399;
+}
+
+/*_______________________Carousel_____________________*/
+
+.img-fluid {
+  max-width: 100%;
+  height: 900px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 37.5%;
+  bottom: 20px;
+  left: 37.5%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #5fc4b2;
+  font-size: 25px;
+  text-align: center;
+}
+
+/*_______________________Carousel_____________________*/
+
+/*_________________________Card_______________________*/
+
+.card {
+  border: transparent;
+  border-radius: 0.4rem;
+  background: linear-gradient(to top right, #ccffff 1%, #000000 99%);
+}
+
+/*______________________Cardfooter______________________*/
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(141, 207, 194, 0.64);
+  border-top: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+/*______________________Hover Footer___________________*/
+
+.#facebookicon, #twittericon, #linkedinicon, #googleicon, #instagramicon: {
+  color: black;
+}
+
+#facebookicon:hover, #twittericon:hover, #linkedinicon:hover, #googleicon:hover, #instagramicon:hover, .navbar-dark .navbar-brand:focus {
+  color: #70dbdb;
+}
+
+#headerfooter {
+  color: black;
+  text-decoration: none;
+}
+
+#headerfooter:hover {
+  color: #70dbdb;
+}
+
+/*Buttons*/
+
+.btn-dark {
+  color: #577ba2;
+  background: #343a40 linear-gradient(180deg, #52585d, #343a40) repeat-x;
+  border-color: #343a40;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.btn-dark:focus, .btn-dark.focus {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-dark.disabled, .btn-dark:disabled {
+  color: #fff;
+  background-color: #577ba2;
+  border-color: #343a40;
+}
+
+.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active, .show>.btn-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #577ba2;
+  background-image: none;
+  border-color: #669999;
+}
+
+.btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show>.btn-dark.dropdown-toggle:focus {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-dark:hover {
+  color: #000000 !important;
+  background-color: #5fc4b2 !important;
+  /*linear-gradient(180deg, #44474b, #23272b) repeat-x;*/
+  border-color: #1d2124;
+}
+
+/*.btn-dark:hover, btn-dark:focus{
+  color:#70dbdb;
+}*/
+
+/*.btn-dark .btn-btn-dark-link:hover,.btn-dark-link:hover,{
+  color:#70dbdb; }*/
+
+/*_________AboutBFF Section______________*/
+
+.aboutbffsection, #aboutbffsection {
+  background-color: #5d817f;
+}
+
+/*__________MoviesPre-RegisterPage_____________________*/
+.jumbotron, #Jumbotron-Homepage{
+  background-color: #a3c2c2;
+}
+#Moviespreregister2ndjumbotron
+{
+  background-color: #476b6b;
+  color: white;
+}
+#Moviespreregister3ndjumbotron{
+
+  background-color: #1f2e2e;
+  color: white;
+}
+
+#Moviespreregister4ndjumbotron{
+  background-color: #141f1f;
+  color: white;
+
+}
+
+.bg-firstsectionjumbotron{
+  background-color:black;
+  color:#ffffff;
+}
+
+.contactpagebff, #contactpagebff1, .contactpagesection, #contactpagesection1{
+  background-color:inherit;
+  color:white;
+}
