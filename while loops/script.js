@@ -4,16 +4,16 @@
 // Run the following two loops on your own machine. Notice how the two looping methods are similar, but also have some differences. In particular, the while loop does not have a built-in halting condition.
 
 // // while
-// let w = 0;
-// while (w < 5) {
-//   console.log(`This is while iteration number ${w}`);
-//   w++;
-// }
+let w = 0;
+while (w < 5) {
+    console.log(`This is while iteration number ${w}`);
+    w++;
+}
 
-// // for
-// for (let i = 0; i < 5; i++) {
-//   console.log(`This is for iteration number ${i}`);
-// }
+// for
+for (let i = 0; i < 5; i++) {
+    console.log(`This is for iteration number ${i}`);
+}
 
 // // Expected output:
 // // This is while iteration number 0
