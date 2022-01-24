@@ -1,0 +1,42 @@
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button img {
+    height: 50px;
+}
+
+#color-menu {
+    display: none;
+}
+
+#color-menu.visible {
+    display: block;
+}
+
+#color-menu li {
+    padding: 2%;
+    width: 20vw;
+    list-style: none;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
